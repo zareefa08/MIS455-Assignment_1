@@ -113,8 +113,72 @@ h1{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
+/* first font */
 .patrick-hand-regular {
   font-family: "Patrick Hand", cursive;
   font-weight: 400;
   font-style: normal;
+}
+
+
+/* contents of gallery */
+.image4 img{
+  width: 200px;
+  margin: 20px;
+}
+
+.image4{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+p{
+  width: 95%;
+  border: 2px solid #6d3838;
+  border-radius: 10px;
+  margin: 25px; 
+  padding: 15px;
+  background-color: #ead4d4;
+}
+
+.image5 img{
+  width: 200px;
+  margin: 20px;
+}
+
+.image5{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+/* contents of services */
+.image6 img{
+  width: 200px;
+  margin: 20px;
+}
+
+.image6{
+  display: flex;
+  justify-content: center;
+}
+
+.image7 img{
+  width: 200px;
+  margin: 20px;
+}
+
+.image7{
+  display: flex;
+  justify-content: center;
+}
+
+/* contents of contact */
+.image8 img{
+  width: 150px;
+  margin: 20px;
+}
+
+.image8{
+  display: flex;
+  justify-content: center;
 }
