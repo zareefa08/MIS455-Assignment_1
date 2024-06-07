@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+}
+h1{
+    margin: 20px;
+    text-align: center;
+    color: #713c3c;
+    font-size: 50px;
+}
+
+/* navigation bar */
+.navbar li {
+    display: inline-block;
+  }
+
+.navbar a {
+    display: block;
+    background-color: #c89494;
+    text-align: center;
+    width: 100px;
+    padding: 25px 20px;
+    font-weight: bold;
+    font-size: 18px;
+  }
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #6d3838;
+  text-align: center;
+}
+
+.navbar li a {
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar li a:hover {
+  background-color: #713c3c;
+}
+.navbar li {
+    border: 1px solid #f5f2f2;
+  }
+
+/* comtents of homepage */
+
+.blue{
+    margin-right: 50px;
+    margin-left: 20px;
+}
+
+.image1 img{
+    width: 200px;
+    margin: 20px;
+}
+
+.image1{
+    display: flex;
+    justify-content:center;
+}
+
+.blue p{
+    width:100% ;
+    border: 2px solid #6d3838;
+    border-radius: 10px;
+    margin: 10px; 
+    padding: 15px;
+    background-color: #ead4d4;
+}
+
+
+/* contents of about */
+.image2 img{
+  width: 280px;
+  margin: 20px;
+  margin-left: 100px;
+}
+
+.red p{
+  width:80% ;
+  border: 2px solid #6d3838;
+  border-radius: 10px;
+  margin: 25px; 
+  padding: 15px;
+  background-color: #ead4d4;
+  margin-right: 60px;
+}
+
+.red{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.image3 img{
+  width: 280px;
+  margin: 20px;
+  margin-left: 100px;
+}
+
+.pink p{
+  width:80% ;
+  border: 2px solid #6d3838;
+  border-radius: 10px;
+  margin: 25px; 
+  padding: 15px;
+  background-color: #ead4d4;
+  margin-right: 60px;
+}
+
+.pink{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.patrick-hand-regular {
+  font-family: "Patrick Hand", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
